@@ -64,7 +64,7 @@ public class Main {
       while ((str = br.readLine()) != null){
           	wordlist.add(str); //transcribes the .txt file into an arraylist
       }
-      int counter = 0; //counts every singe round
+      int counter = 0; //counts every single round
       int score = 0; //only counts rounds that are correct
       //A loop to go through the entire list and stop when prompted
       for(int i = 0; i < wordlist.size(); i++){
